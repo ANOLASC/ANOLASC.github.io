@@ -96,23 +96,25 @@
 
 
 
-  <meta name="description" content="Writing, Coding, Recording...">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ASSS">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Graph theory &amp;amp; algorithm1. Undirected GraphsMain points A variety of fundamental graph algorithms. Some basic graph theory  To do research in graph, there is always have a question to be solved th">
+<meta name="keywords" content="English">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Graph">
+<meta property="og:url" content="http://yoursite.com/2019/05/27/to-do-1/index.html">
 <meta property="og:site_name" content="ASSS">
-<meta property="og:description" content="Writing, Coding, Recording...">
+<meta property="og:description" content="Graph theory &amp;amp; algorithm1. Undirected GraphsMain points A variety of fundamental graph algorithms. Some basic graph theory  To do research in graph, there is always have a question to be solved th">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-05-28T12:22:59.984Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ASSS">
-<meta name="twitter:description" content="Writing, Coding, Recording...">
+<meta name="twitter:title" content="Graph">
+<meta name="twitter:description" content="Graph theory &amp;amp; algorithm1. Undirected GraphsMain points A variety of fundamental graph algorithms. Some basic graph theory  To do research in graph, there is always have a question to be solved th">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/05/27/to-do-1/">
 
 
 
@@ -122,7 +124,7 @@
   };
 </script>
 
-  <title>ASSS</title>
+  <title>Graph | ASSS</title>
   
 
 
@@ -170,8 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -213,7 +214,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -275,9 +276,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -309,10 +310,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/27/to-do-1/" class="post-title-link" itemprop="url">Graph</a>
+          <h1 class="post-title" itemprop="name headline">Graph
+
               
             
           </h1>
@@ -406,26 +405,31 @@
       
 
       
-        
-          
-            <p>
-              Graph theory &amp; algorithm1. Undirected GraphsMain points
-A variety of fundamental graph algorithms.
-Some basic graph theory
+        <h1 id="Graph-theory-amp-algorithm"><a href="#Graph-theory-amp-algorithm" class="headerlink" title="Graph theory &amp; algorithm"></a>Graph theory &amp; algorithm</h1><h2 id="1-Undirected-Graphs"><a href="#1-Undirected-Graphs" class="headerlink" title="1. Undirected Graphs"></a>1. Undirected Graphs</h2><h3 id="Main-points"><a href="#Main-points" class="headerlink" title="Main points"></a>Main points</h3><ul>
+<li>A variety of fundamental graph algorithms.</li>
+<li>Some basic graph theory</li>
+</ul>
+<p>To do research in graph, there is always have a question to be solved that <em>Is vertex v connected to w?</em> or <em>Is this graph connected?</em>  we begin in algorithm <em>Depth First Search</em> which may solve this question in an intuitive way.</p>
+<p>“Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.” <a href="https://en.wikipedia.org/wiki/Depth-first_search" target="_blank" rel="noopener">1</a></p>
+<p>Java implementation of DFS [2]</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> class <span class="title">DepthFirstSearch</span> <span class="params">()</span></span></span><br></pre></td></tr></table></figure>
 
-To do research in graph, there is always have a question to be solved that Is vertex v connected to w? or Is this graph connected?  we begin in algorithm Depth First Search
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/05/27/to-do-1/#more" rel="contents">
-                Weiterlesen &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
+<p>C++ implementation of DFS</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br></pre></td></tr></table></figure>
+
+<p>BFS</p>
+<p>definiton of BFS:</p>
+<p>Java implementation of BFS [3]</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>C++ implementation of BFS</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br></pre></td></tr></table></figure>
+
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li>Depth-first search. Retrieved April 10th, 2019, from: WIKIPEDIA <a href="https://en.wikipedia.org/wiki/Depth-first_search" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Depth-first_search</a></li>
+<li>Robert Sedgewick &amp; Kevin Wayne. (2016). <em>Algorithms</em> (4th Edition) (pp. 531).</li>
+</ol>
+
       
     </div>
 
@@ -446,163 +450,36 @@ To do research in graph, there is always have a question to be solved that Is ve
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/20/new/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Rias">
-      <meta itemprop="description" content="Writing, Coding, Recording...">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ASSS">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/03/20/new/" class="post-title-link" itemprop="url">new</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Erstellt: 2019-03-20 00:21:51" itemprop="dateCreated datePublished" datetime="2019-03-20T00:21:51+08:00">2019-03-20</time>
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/English/" rel="tag"># English</a>
           
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          
-            <p>
-              
-              
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/03/20/new/#more" rel="contents">
-                Weiterlesen &raquo;
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/20/new/" rel="next" title="new">
+                <i class="fa fa-chevron-left"></i> new
               </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
+            
+          </div>
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -612,14 +489,15 @@ To do research in graph, there is always have a question to be solved that Is ve
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -639,8 +517,17 @@ To do research in graph, there is always have a question to be solved that Is ve
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -722,6 +609,23 @@ To do research in graph, there is always have a question to be solved that Is ve
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Graph-theory-amp-algorithm"><span class="nav-number">1.</span> <span class="nav-text">Graph theory &amp; algorithm</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Undirected-Graphs"><span class="nav-number">1.1.</span> <span class="nav-text">1. Undirected Graphs</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Main-points"><span class="nav-number">1.1.1.</span> <span class="nav-text">Main points</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#References"><span class="nav-number">1.2.</span> <span class="nav-text">References</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -850,6 +754,10 @@ To do research in graph, there is always have a question to be solved that Is ve
 
 
   
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
 
   
 
@@ -865,6 +773,8 @@ To do research in graph, there is always have a question to be solved that Is ve
 
   
 
+
+  
 
 
   
